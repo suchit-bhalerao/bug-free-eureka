@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print greeting
-        run: echo "Hello github action"
+        run: |
+            echo "Hello github action"
+            echo "2nd step"
       - name: good bye
         run: echo "good bye"
